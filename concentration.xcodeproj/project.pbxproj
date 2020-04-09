@@ -14,6 +14,8 @@
 		8020628C238FAF5A00608337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8020628B238FAF5A00608337 /* Assets.xcassets */; };
 		8020628F238FAF5A00608337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020628D238FAF5A00608337 /* LaunchScreen.storyboard */; };
 		8020629A238FAF5A00608337 /* concentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80206299238FAF5A00608337 /* concentrationTests.swift */; };
+		802062A5238FF5A500608337 /* ConcentrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802062A4238FF5A500608337 /* ConcentrationModel.swift */; };
+		802062A7238FF64700608337 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802062A6238FF64700608337 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		80206295238FAF5A00608337 /* concentrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = concentrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80206299238FAF5A00608337 /* concentrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentrationTests.swift; sourceTree = "<group>"; };
 		8020629B238FAF5A00608337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802062A4238FF5A500608337 /* ConcentrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationModel.swift; sourceTree = "<group>"; };
+		802062A6238FF64700608337 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				80206284238FAF5900608337 /* SceneDelegate.swift */,
 				80206286238FAF5900608337 /* ViewController.swift */,
 				80206288238FAF5900608337 /* Main.storyboard */,
+				802062A4238FF5A500608337 /* ConcentrationModel.swift */,
+				802062A6238FF64700608337 /* Card.swift */,
 				8020628B238FAF5A00608337 /* Assets.xcassets */,
 				8020628D238FAF5A00608337 /* LaunchScreen.storyboard */,
 				80206290238FAF5A00608337 /* Info.plist */,
@@ -202,7 +208,9 @@
 			files = (
 				80206287238FAF5900608337 /* ViewController.swift in Sources */,
 				80206283238FAF5900608337 /* AppDelegate.swift in Sources */,
+				802062A7238FF64700608337 /* Card.swift in Sources */,
 				80206285238FAF5900608337 /* SceneDelegate.swift in Sources */,
+				802062A5238FF5A500608337 /* ConcentrationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
